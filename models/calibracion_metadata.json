@@ -1,0 +1,14 @@
+{
+  "umbral_optimo": 0.33,
+  "criterio_umbral": "max_F1 en curva Precision-Recall",
+  "recall_global_test": 0.3947078280044101,
+  "precision_global_test": 0.2613456624893539,
+  "f1_global_test": 0.3144718541834419,
+  "recall_nucleo": 0.2696929238985314,
+  "recall_periferia": 0.9873417721518988,
+  "cv_recall_mean": 0.3928845337721592,
+  "cv_recall_std": 0.005329516252905324,
+  "cv_f1_mean": 0.31258796792907995,
+  "cv_f1_std": 0.003179548822994456,
+  "nota": "Umbral calibrado sobre dataset sintético. Recalibrar con datos reales de LogiSmart antes de despliegue."
+}
